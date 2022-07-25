@@ -21,5 +21,13 @@ public class Variables {
 
         var miVariableString2 = "Variable var";
         System.out.println(miVariableString2);
+
+        //Concatenación
+        System.out.println("miVariableString2 = " + miVariableString2);
+
+        //Nombre de variables permitidos
+        var miVariable = 1;
+        var _miVariable = 2;
+        var $miVariable = 3;
     }
 }
